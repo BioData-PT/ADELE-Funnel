@@ -48,3 +48,15 @@ LocalStorage:
   # Whitelist of local directory paths which Funnel is allowed to access.
   AllowedDirs:
     - ./
+
+GenericS3: # CHANGE ME
+  - Disabled: false
+    Endpoint: "http://s3:9000"
+    Key: "access"
+    Secret: "secretkey"
+
+# Amazon S3 is enabled by default, so we need to set it up to disable it
+# and not conflict with our S3
+AmazonS3:
+  Disabled: true
+
