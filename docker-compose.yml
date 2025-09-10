@@ -33,6 +33,6 @@ volumes:
 
 networks:
   tre-core:
-    external: true
+    # external: true
   public:
   secure:
