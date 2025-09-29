@@ -28,10 +28,10 @@ services:
     extra_hosts:
     - dockerhost:host-gateway
 
-volumes:
-  data:
+#volumes:
+  #data:
 
-networks:
-  tre-core:
-  public:
-  secure:
+#networks:
+  #tre-core:
+  #public:
+  #secure:
